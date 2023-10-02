@@ -46,12 +46,14 @@ const Splashscreen = () => {
         <img
           src={Woman1}
           alt="Lady on Blue"
+          loading="lazy"
           style={{ borderRadius: "25px" }}
-          className="absolute top-[195px] left-[37px] transform -translate-y-1/2 w-[280px] h-[214px] rou"
+          className="absolute top-[195px] left-[37px] transform -translate-y-1/2 w-[280px] h-[214px] rounded-2xl"
         />
         <img
           src={FatherAndSon}
           alt="Father and child on a laptop"
+          loading="lazy"
           style={{ borderRadius: "32px" }}
           className="absolute bottom-[-20px] left-[37px] transform -translate-y-1/2 w-[280px] h-[214px] rounded-2xl"
         />
@@ -59,8 +61,9 @@ const Splashscreen = () => {
         <img
           src={Woman2}
           alt="Lady on Orange"
+          loading="lazy"
           style={{ borderRadius: "32px" }}
-          className="absolute top-1/2 right-[37px] transform -translate-y-1/2 w-[280px] h-[448px] rounded-lg"
+          className="absolute top-1/2 right-[37px] transform -translate-y-1/2 w-[280px] h-[448px] rounded-2xl"
         />
       </div>
     </main>
