@@ -7,7 +7,7 @@ import Green from "../assets/help_assets/dotted_image_green.svg";
 
 const Splashscreen = () => {
   return (
-    <main className=" max-h-[100vh] max-w-full bg-white flex md:flex-row flex-col w-full px-6 justify-center gap-2 items-center">
+    <main className="h-[100vh] lg:max-w-[1440px] bg-white flex md:flex-row flex-col px-6 justify-center gap-2 items-center">
       {/* div for text on the left */}
       <div className=" w-[45%] ml-8 mt-28 h-[Hug (317px)]">
         <div className="w-[Hug (548px)] h-[Hug (204px)]">

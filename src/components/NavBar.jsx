@@ -30,10 +30,10 @@ const Navbar = () => {
         </div>
         <div className="w-[Hug (128px)] py-[12px] px-[10px]">
           <div className="w-[Hug (108px)] h-[Hug (23px)]">
-            {/* <Link to="../login.js">
-              <p className=" text-[#120B48] font-Sora text-[18px] font-[600] text-center whitespace-nowrap hover:text-[#7768ec]">
+          <p className=" text-[#120B48] font-Sora text-[18px] font-[600] text-center whitespace-nowrap hover:text-[#7768ec]">
                 Get Started
               </p>
+            {/* <Link to="../login.js">
             </Link> */}
           </div>
         </div>
