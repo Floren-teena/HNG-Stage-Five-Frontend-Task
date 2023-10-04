@@ -1,9 +1,5 @@
 const HowItWorks = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default HowItWorks
+export default HowItWorks;

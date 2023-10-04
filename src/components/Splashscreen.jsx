@@ -7,7 +7,7 @@ import Green from "../assets/help_assets/dotted_image_green.svg";
 
 const Splashscreen = () => {
   return (
-    <main className=" max-h-[90vh] max-w-full bg-white flex md:flex-row flex-col w-full px-6 justify-center gap-2 items-center">
+    <main className=" max-h-[100vh] max-w-full bg-white flex md:flex-row flex-col w-full px-6 justify-center gap-2 items-center">
       {/* div for text on the left */}
       <div className=" w-[45%] ml-8 mt-28 h-[Hug (317px)]">
         <div className="w-[Hug (548px)] h-[Hug (204px)]">
@@ -28,7 +28,7 @@ const Splashscreen = () => {
       </div>
 
       {/* div for the images on the right */}
-      <div className="relative w-[55%] h-screen mt-28">
+      <div className="relative w-[55%] h-screen mt-24">
         {/* Dotted Grey image */}
         <img
           src={Grey}
@@ -47,27 +47,29 @@ const Splashscreen = () => {
           src={Woman1}
           alt="Lady on Blue"
           loading="lazy"
-          style={{ borderRadius: "25px" }}
-          className="absolute top-[195px] left-[37px] transform -translate-y-1/2 w-[280px] h-[214px] rounded-2xl"
+          // style={{ borderRadius: "32px" }}
+          className="absolute top-[193px] left-[37px] transform -translate-y-1/2 w-[280px] rounded-lg"
+          // h-[214px]
         />
         <img
           src={FatherAndSon}
           alt="Father and child on a laptop"
           loading="lazy"
-          style={{ borderRadius: "32px" }}
-          className="absolute bottom-[-20px] left-[37px] transform -translate-y-1/2 w-[280px] h-[214px] rounded-2xl"
+          // style={{ borderRadius: "32px" }}
+          className="absolute bottom-0 left-[37px] transform -translate-y-1/2 w-[280px] rounded-lg"
+          // h-[214px]
         />
         {/* Right-side image */}
         <img
           src={Woman2}
           alt="Lady on Orange"
           loading="lazy"
-          style={{ borderRadius: "32px" }}
-          className="absolute top-1/2 right-[37px] transform -translate-y-1/2 w-[280px] h-[448px] rounded-2xl"
+          // style={{ borderRadius: "32px" }}
+          className="absolute top-1/2 right-[37px] transform -translate-y-1/2 rounded-lg w-[280px]"
+          // h-[448px]
         />
       </div>
     </main>
   );
 };
-
 export default Splashscreen;

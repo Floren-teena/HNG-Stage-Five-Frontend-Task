@@ -1,8 +1,9 @@
+// import { Link } from "react-router-dom";
 import Logo from "../assets/logo/logo.svg";
 
 const Navbar = () => {
   return (
-    <div className=" md:max-h-[84px] flex flex-col bg-white pb-16">
+    <div className=" md:max-h-[8vh] flex flex-col bg-white">
       <nav className=" m-0 py-[12px] px-4 md:px-10 lg:px-16 xl:px-40   flex flex-col md:flex-row sm:flex-row items-center justify-between border-b-2 border-[#eff2f4]">
         <div className="w-[Hug (157px)] h-[Hug (60px)] flex flex-row items-center gap-1">
           <img
@@ -29,11 +30,11 @@ const Navbar = () => {
         </div>
         <div className="w-[Hug (128px)] py-[12px] px-[10px]">
           <div className="w-[Hug (108px)] h-[Hug (23px)]">
-            <a href="/">
+            {/* <Link to="../login.js">
               <p className=" text-[#120B48] font-Sora text-[18px] font-[600] text-center whitespace-nowrap hover:text-[#7768ec]">
                 Get Started
               </p>
-            </a>
+            </Link> */}
           </div>
         </div>
       </nav>
